@@ -1,0 +1,365 @@
+body {
+    background-color: #575873;
+    color: white;
+    margin: 0;
+    font-family: "Moulpali", serif;
+    font-weight: 400px;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container_header {
+    max-width: 100%;
+    background-color: #D9D9D9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px 0 24px;
+}
+
+header .home {
+    color: black;
+    font-size: 25px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 28px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+header a:hover {
+    color: #9193C3;
+}
+
+section.uno h1 {
+    color: white;
+    text-align: center;
+    font-family: "Limelight";
+    font-weight: normal;
+    font-size: 33px;
+    line-height: 100%; 
+}
+
+.titoli_home {
+    display: flex;
+    flex-direction: column;
+    margin: 70px 0 70px 0;
+    gap: 20px;
+
+}
+
+div.copertine {
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+    max-width: 100%;
+    margin: auto; 
+}
+
+div.copertine img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+div.container_home {
+    width: 800px;
+    margin: auto;
+    margin-top: 100px;
+    display: grid;
+    row-gap: 50px;
+    margin-bottom: 100px;
+}
+
+section.due {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 95px;
+    width: 100%;
+}
+
+section.due h3 {
+    font-weight: normal;
+    font-size: 18px;
+    margin: 0%;
+}
+
+section.due p {
+    margin: 0%;
+    font-size: 14px;
+}
+
+section.tre {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 130px;
+    width: 100%;
+}
+
+section.tre h3 {
+    font-weight: normal;
+    font-size: 18px;
+}
+
+section.tre ul {
+    margin: 0%;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+section.prima {
+    background-color: #575873;
+}
+
+footer {
+    max-width: 100%;
+    background-color: #D9D9D9;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p {
+    padding-left: 22px;
+    color: black;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+footer nav ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    padding-right: 50px;
+    margin-top: 15px;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px; 
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.informazioni_attivo {
+    color: #575873;
+    font-weight: 1000;
+}
+
+.artisti_attivo {
+    color: #575873;
+    font-weight: 1000;
+}
+
+section.testo_artisti {
+    width: 800px;
+    margin: auto;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    row-gap: 40px;
+    margin-bottom: 100px;
+}
+
+section.testo_artisti h3 {
+    font-weight: normal;
+    font-size: 16px;
+    margin: 0%;
+}
+
+section.testo_artisti p {
+    margin: 0%;
+    font-size: 14px;
+}
+
+section.card {
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    max-width: 1300px;
+    margin-top: 50px;
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-bottom: 180px;
+    gap: 120px;
+}
+
+section.card a {
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 0 0 20px 20px;
+}
+
+section.card a:hover {
+    text-decoration: underline;
+}
+
+section.card img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+section.card div {
+    display:flex ;
+    flex-direction: column;
+}
+
+.mostra_attivo {
+    color: #575873;
+    font-weight: 1000;
+}
+
+section.titolo_artista h1 {
+    text-align: center;
+    font-family: "Limelight";
+    font-size: 48px;
+    color: white;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.container_pagina {
+    
+    margin: auto;
+}
+
+section.cartella {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    column-gap: 120px;
+    align-items: start;
+    padding: 0 50px 120px 50px;
+}
+
+section.testo {
+    max-width: 690px;
+    font-size: 16px;
+    align-items: start;
+}
+
+section.opere {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1300px;
+    gap: 22px;
+}
+
+section.opere img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover; 
+}
+
+@media (max-width:600px) {
+    div.container_home {
+        width: 350px;
+        margin: auto;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    section.due {
+        grid-template-columns: 1fr;
+        width: 300px;
+        margin: auto;
+        row-gap: 20px;
+    }
+
+    section.tre {
+        grid-template-columns: 1fr;
+        width: 300px;
+        margin: auto;
+        row-gap: 20px;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    section.uno h1 {
+        line-height: 130%;
+    }
+
+    footer nav ul {
+        gap: 5px;
+        flex-direction: column;
+        padding-right: 24px;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    footer nav ul li {
+        text-align: right;
+    }
+
+    div.copertine img {
+        height: 50px;
+    }
+
+    section.testo_artisti {
+        grid-template-columns: 1fr;
+        width: 300px;
+        margin: auto;
+        row-gap: 20px;
+    }
+
+    section.testo_artisti h3 {
+        text-align: left;
+        margin-top: 50px;
+    }
+
+    section.card {  
+        grid-template-columns: 1fr;
+        width: 300px;
+        margin: auto;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        row-gap: 80px;
+   }
+
+   section.cartella {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 120px;
+    align-items: start;
+    padding: 0 50px 120px 50px;
+    }
+
+   section.opere {
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr;
+   }
+
+    section.opere img {
+    height: auto;
+    }
+
+}
